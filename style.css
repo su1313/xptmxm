@@ -1,0 +1,251 @@
+.slide {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 6480px;
+  position: relative;
+}
+
+.slide .overlap {
+  position: absolute;
+  width: 1944px;
+  height: 1750px;
+  top: 0;
+  left: -24px;
+}
+
+.slide .frame {
+  position: absolute;
+  width: 1920px;
+  height: 500px;
+  top: 0;
+  left: 24px;
+  background-image: url(./img/rectangle-1.svg);
+  background-size: 100% 100%;
+}
+
+.slide .frame-2 {
+  position: absolute;
+  width: 1944px;
+  height: 1334px;
+  top: 416px;
+  left: 0;
+  background-image: url(./img/frame-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .text-wrapper {
+  width: 464px;
+  height: 190px;
+  top: 221px;
+  left: 366px;
+  font-family: "Noto Sans KR-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 96px;
+  line-height: 120px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .text-wrapper-2 {
+  height: 18px;
+  top: 82px;
+  left: 830px;
+  font-family: "Noto Sans KR-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 120px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .element {
+  position: absolute;
+  width: 640px;
+  height: 93px;
+  top: 490px;
+  left: 366px;
+  font-family: "Noto Sans KR-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.slide .p {
+  width: 447px;
+  height: 39px;
+  top: 616px;
+  left: 366px;
+  font-family: "Noto Sans KR-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 27px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .frame-3 {
+  position: absolute;
+  width: 1920px;
+  height: 1865px;
+  top: 1750px;
+  left: 0;
+}
+
+.slide .text-wrapper-3 {
+  height: 18px;
+  top: 102px;
+  left: 806px;
+  font-family: "Noto Sans KR-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  line-height: 120px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .text-wrapper-4 {
+  height: 269px;
+  top: 232px;
+  left: 432px;
+  font-family: "Noto Sans KR-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 135px;
+  line-height: 170px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .overlap-group {
+  position: absolute;
+  width: 1439px;
+  height: 474px;
+  top: 1106px;
+  left: 242px;
+}
+
+.slide .frame-4 {
+  position: absolute;
+  width: 1166px;
+  height: 474px;
+  top: 0;
+  left: 135px;
+  background-image: url(./img/frame-5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .text-wrapper-5 {
+  position: absolute;
+  width: 507px;
+  height: 117px;
+  top: 177px;
+  left: 0;
+  font-family: "Noto Sans KR-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 160px;
+  letter-spacing: 0;
+  line-height: 170px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-6 {
+  position: absolute;
+  width: 507px;
+  height: 117px;
+  top: 177px;
+  left: 932px;
+  font-family: "Noto Sans KR-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 160px;
+  letter-spacing: 0;
+  line-height: 170px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-7 {
+  height: 12px;
+  top: 444px;
+  left: 279px;
+  font-family: "Noto Sans KR-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  line-height: 170px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .text-wrapper-8 {
+  position: absolute;
+  height: 35px;
+  top: 389px;
+  left: 166px;
+  font-family: "Noto Sans KR-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 170px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-9 {
+  position: absolute;
+  height: 35px;
+  top: 389px;
+  left: 1114px;
+  font-family: "Noto Sans KR-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 170px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-10 {
+  height: 12px;
+  top: 444px;
+  left: 1228px;
+  font-family: "Noto Sans KR-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  line-height: 170px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.slide .frame-5 {
+  position: absolute;
+  width: 1210px;
+  height: 117px;
+  top: 697px;
+  left: 355px;
+  background-image: url(./img/frame-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
