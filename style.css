@@ -1,0 +1,42 @@
+.slide .frame {
+  position: absolute;
+  width: 1920px;
+  height: 500px;
+  top: 0;
+  left: 24px;
+  background-image: url("image/image1.jpg");
+  background-size: 100% 100%;
+}
+
+.slide .frame-2 {
+  position: absolute;
+  width: 1944px;
+  height: 1334px;
+  top: 416px;
+  left: 0;
+  background-image: url("image/image2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .frame-4 {
+  position: absolute;
+  width: 1166px;
+  height: 474px;
+  top: 0;
+  left: 135px;
+  background-image: url("image/image3.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .frame-5 {
+  position: absolute;
+  width: 1210px;
+  height: 117px;
+  top: 697px;
+  left: 355px;
+  background-image: url("image/image4.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
