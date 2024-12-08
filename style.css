@@ -1,0 +1,42 @@
+.slide .frame {
+  position: absolute;
+  width: 1920px;
+  height: 500px;
+  top: 0;
+  left: 24px;
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: 100% 100%;
+}
+
+.slide .frame-2 {
+  position: absolute;
+  width: 1944px;
+  height: 1334px;
+  top: 416px;
+  left: 0;
+  background-image: url("https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=3850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .frame-4 {
+  position: absolute;
+  width: 1166px;
+  height: 474px;
+  top: 0;
+  left: 135px;
+  background-image: url("https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=3873&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .frame-5 {
+  position: absolute;
+  width: 1210px;
+  height: 117px;
+  top: 697px;
+  left: 355px;
+  background-image: url("https://images.unsplash.com/photo-1585912812840-b457972f28d0?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 50% 50%;
+}
